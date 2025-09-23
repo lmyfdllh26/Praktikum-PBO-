@@ -2,11 +2,26 @@
  Program ini merupakan aplikasi Java sederhana untuk mengelola data atlet. Pengguna dapat memasukkan nama, umur, dan memilih cabang olahraga (basket atau voli). Program menerapkan konsep OOP yaitu encapsulation melalui penggunaan getter dan setter, inheritance dengan superclass Atlet serta subclass AtletBasket dan AtletVoli, serta overriding pada method tampilkanInfo() agar informasi yang ditampilkan sesuai cabang olahraga masing-masing.
  
 **Menu dari program ini:**
-1. Tambah Atlet
-2. Lihat Daftar Atlet
-3. Ubah Data Atlet
-4. Hapus Atlet
-5. Keluar
+
+Operasi CRUD:
+
+Create → tambah data atlet.
+
+Read → lihat daftar atlet.
+
+Update → ubah data atlet.
+
+Delete → hapus data atlet.
+
+Penerapan konsep OOP:
+
+Encapsulation dengan getter dan setter.
+
+Inheritance (superclass Atlet, subclass AtletBasket & AtletVoli).
+
+Overriding pada method tampilkanInfo().
+
+Fitur pencarian data atlet (search) sebagai nilai tambah.
 
 **1.Tambah Atlet**
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4caea8a9-1b3d-4b58-b68c-e08d54153741" />
