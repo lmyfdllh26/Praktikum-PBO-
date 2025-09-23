@@ -29,6 +29,8 @@ Overriding pada method tampilkanInfo().
 
 Fitur pencarian data atlet (search) sebagai nilai tambah.
 
+Struktur Program:
+
 
 Output:
 
