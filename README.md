@@ -1,7 +1,6 @@
 # Praktikum-PBO-
-Program ini dibuat untuk mengelola data atlet dengan konsep CRUD (Create, Read, Update, Delete).
-User bisa menambah atlet baru, menampilkan semua atlet, mengubah data atlet, menghapus atlet, dan keluar dari aplikasi
-
+ Program ini merupakan aplikasi Java sederhana untuk mengelola data atlet. Pengguna dapat memasukkan nama, umur, dan memilih cabang olahraga (basket atau voli). Program menerapkan konsep OOP yaitu encapsulation melalui penggunaan getter dan setter, inheritance dengan superclass Atlet serta subclass AtletBasket dan AtletVoli, serta overriding pada method tampilkanInfo() agar informasi yang ditampilkan sesuai cabang olahraga masing-masing.
+ 
 **Menu dari program ini:**
 1. Tambah Atlet
 2. Lihat Daftar Atlet
