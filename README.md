@@ -62,3 +62,47 @@ Program menyediakan fitur search untuk mencari data atlet berdasarkan cabang ola
 <img width="517" height="291" alt="image" src="https://github.com/user-attachments/assets/f53efb15-f3f3-4ac3-aa72-29e23088ddf8" />
 
 Menu ini berfungsi untuk menghentikan jalannya program. Dengan memilih menu ini, pengguna dapat keluar dari aplikasi setelah selesai melakukan pengelolaan data atlet.
+
+
+**Encapsulation (Getter dan Setter)**
+
+<img width="704" height="559" alt="image" src="https://github.com/user-attachments/assets/a439de5d-d3c2-4634-a23c-71986cf5f784" />
+
+Getter dan Setter digunakan untuk mengatur akses terhadap atribut yang bersifat private. Dalam program ini, atribut nama dan umur pada kelas Atlet dibuat private, sehingga tidak bisa diakses langsung dari luar kelas. Untuk itulah dibuat getter dan setter.
+
+
+**inheritance**
+
+<img width="199" height="120" alt="image" src="https://github.com/user-attachments/assets/5f1e7f3e-9964-49a6-8399-9924d46ba76a" />
+
+Dalam sistem ini, Atlet.java berperan sebagai supperclass, sedangkan AtletBasket dan AtletVoli berperan sebagai subclass.
+
+
+**Abstraction**
+
+<img width="445" height="200" alt="image" src="https://github.com/user-attachments/assets/8f678a05-7d43-419e-a6f5-cdd82f5e0c9a" />
+<img width="575" height="95" alt="image" src="https://github.com/user-attachments/assets/3bb5d1ce-eff3-4487-8b9a-d0cd1ac4618a" />
+
+
+Kelas Atlet dijadikan abstrak untuk menjadi kerangka dasar semua atlet. Metode tampilkanInfo() dibuat abstrak agar wajib diimplementasikan berbeda oleh kelas turunan seperti AtletBasket dan AtletVoli.
+
+**Inheritance (Pewarisan)**
+
+<img width="645" height="183" alt="image" src="https://github.com/user-attachments/assets/70f24a8e-411e-4a63-b7a2-ba0fa7485328" />
+
+Kelas AtletBasket mewarisi (extends) kelas Atlet sehingga otomatis memiliki atribut nama dan umur, serta dapat mengimplementasikan metode tampilkanInfo() sesuai kebutuhan.
+
+**Polymorphism (Overriding & Overloading)**
+
+- OVERRIDING
+  
+<img width="723" height="198" alt="image" src="https://github.com/user-attachments/assets/ff253a03-1d20-447e-849d-0d2c3a9effb2" />
+
+
+Method `tampilkanInfo()` pada `AtletBasket` adalah contoh **overriding**, yaitu menulis ulang method dari superclass (`Atlet`) agar sesuai dengan kebutuhan subclass. Walaupun nama method sama, isinya berbeda. Dengan ini tercapai **polymorphism**, karena `tampilkanInfo()` bisa menghasilkan output berbeda tergantung objeknya (Basket atau Voli).
+
+- OVERLOADING
+
+  <img width="671" height="268" alt="image" src="https://github.com/user-attachments/assets/785743c3-f50f-4a5f-aa47-ce378fe6ead8" />
+
+Constructor Atlet termasuk overloading karena memiliki dua versi dengan parameter berbeda. Hal ini memberi fleksibilitas: objek bisa dibuat hanya dengan nama & umur, atau dengan tambahan cabang olahraga.
