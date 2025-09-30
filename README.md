@@ -106,3 +106,9 @@ Method `tampilkanInfo()` pada `AtletBasket` adalah contoh **overriding**, yaitu 
   <img width="671" height="268" alt="image" src="https://github.com/user-attachments/assets/785743c3-f50f-4a5f-aa47-ce378fe6ead8" />
 
 Constructor Atlet termasuk overloading karena memiliki dua versi dengan parameter berbeda. Hal ini memberi fleksibilitas: objek bisa dibuat hanya dengan nama & umur, atau dengan tambahan cabang olahraga.
+
+**interface**
+
+<img width="395" height="199" alt="image" src="https://github.com/user-attachments/assets/7916e000-f7fb-4f22-a238-2b8c2597f1c8" />
+
+Interface Latihan berfungsi sebagai kontrak yang mewajibkan setiap class yang mengimplementasikannya untuk memiliki method latihan(), dengan isi yang dapat berbeda sesuai kebutuhan masing-masing class.
