@@ -135,3 +135,9 @@ berikut sedikit ssan kode nya
 ![WhatsApp Image 2025-10-10 at 22 55 53_3e89290a](https://github.com/user-attachments/assets/bc8c5e8a-ea0d-4eff-a6c7-328ae82123b5)
 
 
+- Database Connection
+
+Koneksi database merupakan proses yang menghubungkan antara program Java dengan database MySQL agar program dapat mengakses, membaca, menambah, mengubah, dan menghapus data.
+Pada program ini, koneksi ke database dibuat menggunakan teknologi JDBC (Java Database Connectivity).
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6df21a88-a36e-4be9-92be-3b682bcd31fd" />
