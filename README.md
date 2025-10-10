@@ -112,3 +112,26 @@ Constructor Atlet termasuk overloading karena memiliki dua versi dengan paramete
 <img width="395" height="199" alt="image" src="https://github.com/user-attachments/assets/7916e000-f7fb-4f22-a238-2b8c2597f1c8" />
 
 Interface Latihan berfungsi sebagai kontrak yang mewajibkan setiap class yang mengimplementasikannya untuk memiliki method latihan(), dengan isi yang dapat berbeda sesuai kebutuhan masing-masing class.
+
+
+
+**Class baru**
+
+- TampilData.java
+
+  Class ini dibuat untuk menampilkan data dari tabel database menggunakan Statement (bukan PreparedStatement).
+
+  berikut ssan singkat kode nya
+![WhatsApp Image 2025-10-10 at 22 56 52_8b5eb16e](https://github.com/user-attachments/assets/e4eb2ba1-901e-4f35-92bc-98773ff3fd3b)
+
+
+  - SimpleORM.java
+
+    Class ini berfungsi sebagai ORM (Object Relational Mapping) sederhana,
+yang secara otomatis membuat query INSERT dari objek Java tanpa perlu menulis SQL manual.
+
+berikut sedikit ssan kode nya
+
+![WhatsApp Image 2025-10-10 at 22 55 53_3e89290a](https://github.com/user-attachments/assets/bc8c5e8a-ea0d-4eff-a6c7-328ae82123b5)
+
+
